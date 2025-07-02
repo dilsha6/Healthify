@@ -38,7 +38,7 @@ Healthify is a modern health report analyzer built with React and Vite. Effortle
 
 ---
 
-Built with  for better health
+Built with love for better health
 ![image](https://github.com/user-attachments/assets/533db12b-b90c-4e63-b300-e330c8fc92c0)
 ![image](https://github.com/user-attachments/assets/0777ae19-3a7e-4525-a841-77c2e0f987bc)
 ![image](https://github.com/user-attachments/assets/f7bc8e35-9241-4582-b1de-36cc1a707b88)
