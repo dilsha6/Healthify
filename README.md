@@ -1,12 +1,41 @@
-# React + Vite
+# Healthify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Healthify is a modern health report analyzer built with React and Vite. Effortlessly upload your medical reports (PDF or image), extract key health parameters using AI-powered OCR, and get instant insights—all in a beautiful, user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Fast, responsive React + Vite frontend
+- 📄 Upload PDF or image health reports
+- 🤖 AI-powered extraction of health parameters
+- 🩺 Instant insights: flags abnormal values, highlights what needs attention
+- 🎨 Clean, modern UI with animated health-themed effects
+- 🔒 Simple login/auth flow for a real user experience
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+
+3. **Open your browser:**  
+   Visit [http://localhost:5173](http://localhost:5173)
+
+## Backend
+
+- The backend (Python FastAPI) handles file uploads and OCR extraction.
+- Make sure the backend is running at `http://localhost:8000/api/v1/upload`.
+
+## Customization
+
+- Update health parameter extraction logic in `backend/utils/ocr_parser.py`.
+- Tweak UI/UX in `frontend/src/components/UploadForm.jsx` and `Login.jsx`.
+
+---
+
+Built with  for better health
