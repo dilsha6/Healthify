@@ -24,7 +24,7 @@ Healthify is a modern health report analyzer built with React and Vite. Effortle
    ```
 
 3. **Open your browser:**  
-   Visit [http://localhost:5173](http://localhost:5173)
+   Visit (https://dilsha6.github.io/Healthify/)
 
 ## Backend
 
